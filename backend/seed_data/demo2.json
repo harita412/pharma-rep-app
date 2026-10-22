@@ -1,0 +1,616 @@
+{
+ "code": "demo2",
+ "name": "Eldroga",
+ "product": "Nitrotrim",
+ "theme": "eldroga",
+ "username": "eldroga_demo",
+ "doctors": [
+  {
+   "id": "d1",
+   "name": "Dr. Meenakshi Raghunathan",
+   "specialty": "Nephrologist",
+   "hospital": "Harbourview Institute of Renal Sciences",
+   "city": "Kochi",
+   "persona": "evidence",
+   "profile": {
+    "initials": "MR",
+    "years": 17,
+    "volume": "About 105 CKD patients a month (stages 3–5)",
+    "readiness": 1,
+    "profile": "Senior consultant who leads the unit’s weekly literature review. Reads the primary paper before any meeting and expects the figures behind every statement.",
+    "motivators": [
+     "A transparent account of what was and was not measured",
+     "Page references she can check herself",
+     "A direct line to Medical Affairs for follow-up questions"
+    ],
+    "concerns": [
+     "35 of 85 patients dropped out of EETOX",
+     "The IS result is weaker than the PCS result",
+     "The sub-analysis is a subset of the same trial",
+     "Sponsor involvement"
+    ],
+    "approach": {
+     "do": [
+      "Open with the design, the 50 completers and the attrition figures",
+      "Quote each result with its basis (group means vs per-patient ratio)",
+      "Offer to set up a Medical Affairs discussion"
+     ],
+     "dont": [
+      "Lead with the percentages",
+      "Call the sub-analysis independent confirmation",
+      "Skip the Cochrane review: she will raise it"
+     ]
+    },
+    "evidence": [
+     "trial_design",
+     "limitations",
+     "pcs",
+     "cochrane_eetox"
+    ],
+    "questions": [
+     "How many patients dropped out of EETOX?",
+     "What about indoxyl sulfate?",
+     "Who funded the study?",
+     "Is EETOX in the Cochrane review?"
+    ],
+    "credentials": "MBBS, DNB (General Medicine), DrNB (Nephrology)",
+    "blurb": "Leads a weekly literature review in her unit and expects the figures behind every statement.",
+    "background": "Senior consultant nephrologist who splits her time between CKD clinics, the dialysis unit and teaching.",
+    "academic": [
+     "Leads the unit’s weekly literature review",
+     "Has presented audit results at regional nephrology meetings",
+     "Supervises DrNB nephrology trainees",
+     "Checks the primary literature before trying anything new"
+    ]
+   }
+  },
+  {
+   "id": "d2",
+   "name": "Dr. Karthik Subbaiah",
+   "specialty": "Nephrologist",
+   "hospital": "Lakeshore Kidney and Transplant Centre",
+   "city": "Madurai",
+   "persona": "believer",
+   "profile": {
+    "initials": "KS",
+    "years": 12,
+    "volume": "About 80 CKD patients a month, many at stage 4–5",
+    "readiness": 3,
+    "profile": "Open to gut-targeted approaches in CKD and already uses probiotics in stage 3–4 patients. Likes the enzyme angle and is keen to use it in more advanced patients.",
+    "motivators": [
+     "The two-step rationale (enzymes plus synbiotic)",
+     "The 2025 stage 4–5 sub-analysis",
+     "Practical diet guidance for his patients"
+    ],
+    "concerns": [
+     "May overstate benefits, especially on dialysis and kidney function",
+     "Shares patient anecdotes as if they were outcomes"
+    ],
+    "approach": {
+     "do": [
+      "Reinforce the flash-card prerequisites: early use, protein restriction, fibre, 8–12 weeks",
+      "Keep him to measured language: \"in EETOX…\"",
+      "Record patient feedback as unsolicited, not as efficacy"
+     ],
+     "dont": [
+      "Agree that it delays dialysis",
+      "Let anecdotes stand in for trial data",
+      "Present the sub-analysis as proof for stage 5"
+     ]
+    },
+    "evidence": [
+     "patients",
+     "diet_gm",
+     "subanalysis",
+     "dialysis"
+    ],
+    "questions": [
+     "Does it delay dialysis?",
+     "Which patients are the best fit?",
+     "Tell me about the stage 4–5 sub-analysis",
+     "What Indian foods are on the diet card?"
+    ],
+    "credentials": "MBBS, MD (Internal Medicine), DM (Nephrology)",
+    "blurb": "Already positive about gut-targeted approaches in CKD and keen to use them more widely.",
+    "background": "Nephrologist with a busy CKD and transplant follow-up clinic and a particular interest in diet and gut health.",
+    "academic": [
+     "Presents CKD case series at state-level meetings",
+     "Works closely with the centre’s renal dietitians",
+     "Keeps up with new gut-focused CKD approaches"
+    ]
+   }
+  },
+  {
+   "id": "d3",
+   "name": "Dr. Anjali Deshpande",
+   "specialty": "Diabetologist",
+   "hospital": "Marigold Metabolic Centre",
+   "city": "Pune",
+   "persona": "reluctant",
+   "profile": {
+    "initials": "AD",
+    "years": 9,
+    "volume": "About 60 diabetic CKD patients a month",
+    "readiness": 2,
+    "profile": "Manages a large diabetic kidney disease clinic and wants options that may help, but holds back because the trial is small and she is not sure which patients to begin with.",
+    "motivators": [
+     "Clear patient-selection criteria",
+     "Knowing what to expect and when",
+     "A low-risk way to try it in two or three patients"
+    ],
+    "concerns": [
+     "Small trial and short follow-up",
+     "No diabetes-specific results from EETOX",
+     "The DKD flash card interval crosses zero"
+    ],
+    "approach": {
+     "do": [
+      "Walk through the slide 5 prerequisites and the stage 3–4 preference",
+      "Show the week-by-week timeline as general literature",
+      "Be clear that EETOX has no diabetes subgroup results"
+     ],
+     "dont": [
+      "Present the DKD meta-analysis as product data",
+      "Promise glycaemic benefit",
+      "Push for a commitment before she has chosen patients"
+     ]
+    },
+    "evidence": [
+     "patients",
+     "onset",
+     "diabetes",
+     "safety"
+    ],
+    "questions": [
+     "Which patients are the best fit?",
+     "Does it work in diabetic kidney disease?",
+     "How soon do patients improve?",
+     "What about side effects?"
+    ],
+    "credentials": "MBBS, MD (General Medicine), Fellowship in Diabetology",
+    "blurb": "Runs a large diabetic kidney disease clinic; interested but unsure where to start.",
+    "background": "Diabetologist who looks after diabetic kidney disease alongside glycaemic control in a metabolic referral centre.",
+    "academic": [
+     "Contributes to the centre’s diabetic CKD audits",
+     "Attends diabetes and kidney meetings",
+     "Careful about adding supplements without clear selection criteria"
+    ]
+   }
+  },
+  {
+   "id": "d4",
+   "name": "Dr. Suresh Ramanathan",
+   "specialty": "Consultant Physician (Internal Medicine)",
+   "hospital": "Crescent City Medical Centre",
+   "city": "Hyderabad",
+   "persona": "non",
+   "profile": {
+    "initials": "SR",
+    "years": 24,
+    "volume": "About 180 patients a month, around 25 with CKD",
+    "readiness": 0,
+    "profile": "Senior general physician who doubts supplements in CKD. Raised the Cochrane review at the first visit and prefers brief, factual conversations.",
+    "motivators": [
+     "Honest acknowledgement of the uncertainty",
+     "Short meetings and no pressure",
+     "Reading the papers himself"
+    ],
+    "concerns": [
+     "Cochrane found no evidence to support or refute biotics in CKD",
+     "Sponsor-supported trial",
+     "No safety data reported"
+    ],
+    "approach": {
+     "do": [
+      "Acknowledge the Cochrane conclusion first",
+      "Explain that EETOX was excluded from it, without arguing",
+      "Ask permission before leaving any paper; keep it to five minutes"
+     ],
+     "dont": [
+      "Argue with the Cochrane review",
+      "Claim safety or dialysis benefit",
+      "Press for a prescription"
+     ]
+    },
+    "evidence": [
+     "cochrane",
+     "cochrane_eetox",
+     "limitations",
+     "funding"
+    ],
+    "questions": [
+     "What does the Cochrane review say?",
+     "Is EETOX in the Cochrane review?",
+     "Who funded the study?",
+     "How is it different from ordinary probiotics?"
+    ],
+    "credentials": "MBBS, MD (General Medicine)",
+    "blurb": "Doubtful about supplements in CKD; raised the Cochrane review and prefers brief, factual meetings.",
+    "background": "Senior general physician with a large outpatient practice, around twenty-five CKD patients and a cautious approach to new products.",
+    "academic": [
+     "Follows systematic reviews and guideline updates",
+     "Prefers independent evidence to promotional material"
+    ]
+   }
+  }
+ ],
+ "visits": [
+  {
+   "key": "v101",
+   "doctor_id": "d1",
+   "day_offset": -38,
+   "visit_time": "09:45",
+   "objective": "First meeting: introduce the EETOX evidence",
+   "status": "completed",
+   "rep_notes": "Had read the EETOX 2022 abstract before the meeting. Asked how many patients finished the trial and whether EETOX was covered by the Cochrane review.",
+   "outcome": "Follow-Up Required",
+   "extra": {
+    "kind": "Introduction",
+    "sentiment": 3,
+    "next": "Prepare the attrition table and the Cochrane position for the next meeting.",
+    "interest": "Moderate",
+    "requests": [
+     "How many of the 85 patients completed EETOX",
+     "Whether EETOX was covered by the Cochrane review"
+    ]
+   }
+  },
+  {
+   "key": "v102",
+   "doctor_id": "d2",
+   "day_offset": -31,
+   "visit_time": "14:15",
+   "objective": "Introduce the product and its rationale",
+   "status": "completed",
+   "rep_notes": "Already prescribes probiotics in stage 3–4 patients and liked the enzyme angle. Asked whether it could be used in stage 5.",
+   "outcome": "Positive",
+   "extra": {
+    "kind": "Introduction",
+    "sentiment": 5,
+    "next": "Bring the prerequisites card (slide 5) and talk through stage-5 use.",
+    "interest": "High",
+    "requests": [
+     "Use in stage 5 patients"
+    ]
+   }
+  },
+  {
+   "key": "v103",
+   "doctor_id": "d3",
+   "day_offset": -29,
+   "visit_time": "11:30",
+   "objective": "Introduce the product for diabetic CKD patients",
+   "status": "completed",
+   "rep_notes": "Interested in diabetic CKD but unsure: the trial is small and she did not know which patients to start with.",
+   "outcome": "Neutral",
+   "extra": {
+    "kind": "Introduction",
+    "sentiment": 3,
+    "next": "Walk through how to choose patients.",
+    "interest": "Moderate",
+    "requests": [
+     "Which patients to start with",
+     "Evidence in diabetic CKD"
+    ]
+   }
+  },
+  {
+   "key": "v104",
+   "doctor_id": "d4",
+   "day_offset": -24,
+   "visit_time": "16:30",
+   "objective": "First introduction to the product",
+   "status": "completed",
+   "rep_notes": "Brief meeting. Doubtful about supplements in CKD and raised the Cochrane review. Did not want promotional material.",
+   "outcome": "Concern Raised",
+   "extra": {
+    "kind": "Introduction",
+    "sentiment": 2,
+    "next": "Return only if he asks for the EETOX reprint. Keep it short.",
+    "interest": "Low",
+    "requests": [
+     "What the Cochrane review means for enzobiotics"
+    ]
+   }
+  },
+  {
+   "key": "v105",
+   "doctor_id": "d1",
+   "day_offset": -17,
+   "visit_time": "10:00",
+   "objective": "Cover attrition and the Cochrane review",
+   "status": "completed",
+   "rep_notes": "Went through the Table 1 attrition figures and explained that EETOX was left out of the Cochrane review. Agreed to read the 2025 sub-analysis and asked for a Medical Affairs call.",
+   "outcome": "Positive",
+   "extra": {
+    "kind": "Follow-up",
+    "sentiment": 4,
+    "next": "Set up the Medical Affairs call.",
+    "interest": "Moderate",
+    "requests": [
+     "The 2025 sub-analysis",
+     "A Medical Affairs discussion"
+    ]
+   }
+  },
+  {
+   "key": "v106",
+   "doctor_id": "d2",
+   "day_offset": -14,
+   "visit_time": "15:00",
+   "objective": "Review the prerequisites and keep the messaging balanced",
+   "status": "completed",
+   "rep_notes": "Went over the prerequisites and measured wording on eGFR and dialysis. Agreed to follow outcomes in his own patients.",
+   "outcome": "Positive",
+   "extra": {
+    "kind": "Follow-up",
+    "sentiment": 5,
+    "next": "Discuss dietary fibre.",
+    "interest": "High",
+    "requests": [
+     "Diet and fibre guidance for patients"
+    ]
+   }
+  },
+  {
+   "key": "v107",
+   "doctor_id": "d3",
+   "day_offset": -9,
+   "visit_time": "12:30",
+   "objective": "Show the evidence timeline",
+   "status": "completed",
+   "rep_notes": "Showed the evidence timeline (slide 3) as general literature. She will pick two stage 3–4 patients to talk through.",
+   "outcome": "Positive",
+   "extra": {
+    "kind": "Follow-up",
+    "sentiment": 4,
+    "next": "Review her candidate patients.",
+    "interest": "Moderate",
+    "requests": [
+     "How soon patients improve",
+     "Which two patients to start with"
+    ]
+   }
+  },
+  {
+   "key": "v108",
+   "doctor_id": "d4",
+   "day_offset": -6,
+   "visit_time": "10:45",
+   "objective": "Hand over the reprint he asked for",
+   "status": "completed",
+   "rep_notes": "Took the EETOX 2022 reprint to read. No commitment. Asked what the Cochrane conclusion means for enzobiotics.",
+   "outcome": "Neutral",
+   "extra": {
+    "kind": "Follow-up",
+    "sentiment": 3,
+    "next": "Explain why Cochrane did not include EETOX at the next visit.",
+    "interest": "Low",
+    "requests": [
+     "Whether the Cochrane conclusion applies to enzobiotics"
+    ]
+   }
+  },
+  {
+   "key": "v109",
+   "doctor_id": "d2",
+   "day_offset": -2,
+   "visit_time": "16:00",
+   "objective": "Follow up on patient feedback",
+   "status": "completed",
+   "rep_notes": "Said two of his patients mentioned easier bowel movements. Asked about stage 5 and delaying dialysis; reminded him that no dialysis outcome has been measured.",
+   "outcome": "Follow-Up Required",
+   "extra": {
+    "kind": "Follow-up",
+    "sentiment": 5,
+    "next": "Talk about fibre and diet at the next visit.",
+    "flags": [
+     "Anecdotal patient feedback logged. Not to be used as a claim."
+    ],
+    "interest": "High",
+    "requests": [
+     "Use in stage 5 and whether it delays dialysis",
+     "Diet advice for patients"
+    ]
+   }
+  },
+  {
+   "key": "v201",
+   "doctor_id": "d3",
+   "day_offset": 0,
+   "visit_time": "11:30",
+   "objective": "Choosing patients: CKD stage 3–4 compared with stage 5",
+   "status": "scheduled",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Follow-up",
+    "open": "Ask which two stage 3–4 patients she had in mind at the last visit, then walk through the slide 5 prerequisites.",
+    "bring": [
+     "patients",
+     "onset",
+     "diabetes"
+    ],
+    "ask": [
+     "Which patients are the best fit?",
+     "Does it work in diabetic kidney disease?",
+     "How soon do patients improve?",
+     "What about side effects?"
+    ],
+    "must": [
+     "State that EETOX had 50 completers over 12 weeks.",
+     "Say Cochrane rates the wider evidence as uncertain.",
+     "Do not present the diabetic-CKD flash card as product data; its GFR interval crosses zero."
+    ]
+   }
+  },
+  {
+   "key": "v202",
+   "doctor_id": "d4",
+   "day_offset": 0,
+   "visit_time": "16:30",
+   "objective": "Answer his Cochrane question and leave the EETOX 2022 reprint",
+   "status": "scheduled",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Follow-up",
+    "open": "Acknowledge the Cochrane conclusion first. Then explain that EETOX was not part of it. Ask permission before sharing any paper.",
+    "bring": [
+     "cochrane",
+     "cochrane_eetox",
+     "limitations"
+    ],
+    "ask": [
+     "What does the Cochrane review say?",
+     "Is EETOX in the Cochrane review?",
+     "Who funded the study?",
+     "How is it different from ordinary probiotics?"
+    ],
+    "must": [
+     "Lead with the limits: 50 completers, 12 weeks, sponsor-supported.",
+     "Do not claim safety or a dialysis benefit.",
+     "Keep it to five minutes."
+    ]
+   }
+  },
+  {
+   "key": "v203",
+   "doctor_id": "d1",
+   "day_offset": 2,
+   "visit_time": "10:00",
+   "objective": "Joint data review with Medical Affairs on attrition, the IS result and the sub-analysis",
+   "status": "scheduled",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Data review",
+    "open": "Put the Table 1 attrition figures on the table first, then the PCS and IS results with their caveats.",
+    "bring": [
+     "limitations",
+     "pcs",
+     "is",
+     "subanalysis"
+    ],
+    "ask": [
+     "How many patients dropped out of EETOX?",
+     "What about indoxyl sulfate?",
+     "Is EETOX in the Cochrane review?",
+     "Who funded the study?"
+    ],
+    "must": [
+     "Say the sub-analysis is a subset of EETOX, not independent confirmation.",
+     "Ask Medical Affairs to address the 2025 paper’s eGFR wording (decline vs increase).",
+     "Quote 31% and 23% with their basis."
+    ]
+   }
+  },
+  {
+   "key": "v204",
+   "doctor_id": "d2",
+   "day_offset": 3,
+   "visit_time": "14:30",
+   "objective": "Dietary fibre, the Indian food list and use in stage 5",
+   "status": "scheduled",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Follow-up",
+    "open": "Review the slide 7 diet equivalents, then discuss stage-5 use, including where the sources differ.",
+    "bring": [
+     "diet_gm",
+     "foods_india",
+     "patients",
+     "dialysis"
+    ],
+    "ask": [
+     "Does it delay dialysis?",
+     "Which patients are the best fit?",
+     "What Indian foods are on the diet card?",
+     "Tell me about the stage 4–5 sub-analysis"
+    ],
+    "must": [
+     "Do not say it delays dialysis: time to dialysis was not measured.",
+     "Record patient feedback as unsolicited, not as efficacy.",
+     "The diet list states no potassium or phosphorus limits."
+    ]
+   }
+  },
+  {
+   "key": "v205",
+   "doctor_id": "d3",
+   "day_offset": 7,
+   "visit_time": "11:00",
+   "objective": "Check in on her chosen patients",
+   "status": "tentative",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Follow-up",
+    "open": "Ask how the candidate patients are doing and whether she wants the timeline reviewed again.",
+    "bring": [
+     "patients",
+     "onset"
+    ],
+    "ask": [
+     "Which patients are the best fit?",
+     "How soon do patients improve?"
+    ],
+    "must": [
+     "Record any patient feedback as unsolicited.",
+     "Report any adverse event she mentions per company SOP."
+    ]
+   }
+  },
+  {
+   "key": "v206",
+   "doctor_id": "d1",
+   "day_offset": 9,
+   "visit_time": "15:30",
+   "objective": "Catch up after the Medical Affairs call",
+   "status": "tentative",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Follow-up",
+    "open": "Ask what she took from the Medical Affairs discussion and what she would like clarified.",
+    "bring": [
+     "cochrane_eetox",
+     "subanalysis"
+    ],
+    "ask": [
+     "Is EETOX in the Cochrane review?",
+     "Tell me about the stage 4–5 sub-analysis"
+    ],
+    "must": [
+     "Do not add new claims beyond the approved papers."
+    ]
+   }
+  },
+  {
+   "key": "v207",
+   "doctor_id": "d4",
+   "day_offset": 10,
+   "visit_time": "09:30",
+   "objective": "Check in on feedback after the reprint",
+   "status": "tentative",
+   "rep_notes": "",
+   "outcome": "",
+   "extra": {
+    "kind": "Check-in",
+    "open": "Ask whether he has read the reprint and whether he has any questions. No pitch.",
+    "bring": [
+     "cochrane",
+     "key_messages"
+    ],
+    "ask": [
+     "What does the Cochrane review say?",
+     "What can I say safely?"
+    ],
+    "must": [
+     "No pressure; accept a \"no\"."
+    ]
+   }
+  }
+ ]
+}
