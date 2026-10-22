@@ -878,12 +878,8 @@ input[type=date]:focus { outline: 2px solid var(--brand); outline-offset: 1px; b
 .lh-h { display: flex; justify-content: space-between; align-items: center; gap: 10px; flex-wrap: wrap; }
 .live-hist p { color: var(--ink-2); white-space: pre-line; }
 
-/* fixed banner on every screen, and the login page */
-.demo-banner { position: fixed; top: env(safe-area-inset-top, 0px); left: 0; right: 0; z-index: 90; height: 30px; display: flex; align-items: center; justify-content: center; gap: 8px; padding: 0 16px; background: var(--warn-bg); color: var(--warn-ink); border-bottom: 1px solid var(--warn-line); font-size: 13px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.demo-banner .ic { width: 15px; height: 15px; }
 html, body { height: 100%; overflow: hidden; }
-#root { position: fixed; top: calc(30px + env(safe-area-inset-top, 0px)); left: 0; right: 0; bottom: 0; height: auto; margin: 0; }
-@media (max-width: 860px) { .side { top: calc(30px + env(safe-area-inset-top, 0px)); padding-top: 18px; } }
+#root { position: fixed; inset: 0; height: auto; margin: 0; }
 .seg.static { cursor: default; }
 .seg.static:hover { background: var(--brand-soft); }
 .login-card .linkbtn { font-size: 13.5px; }
@@ -891,7 +887,6 @@ html, body { height: 100%; overflow: hidden; }
 </style>
 </head>
 <body>
-<div id="banner" class="demo-banner" role="note"></div>
 <div id="root"></div>
 <script>
 /* ==========================================================================
@@ -3980,14 +3975,8 @@ function claimResultHTML(found) {
 }
 
 /* ================================================================ START-UP */
-function renderBanner() {
-  $('#banner').innerHTML = icon('alert') + '<span>Demo only - do not enter patient details' +
-    (SPACE.name ? ' | Space: ' + esc(SPACE.name) + ' - ' + esc(SPACE.product) : '') + '</span>';
-}
-
 function startApp() {
   appReady = true;
-  renderBanner();
   document.getElementById('root').innerHTML = shellHTML();
   parseHash();
   renderAll();
@@ -4002,7 +3991,6 @@ function loginShell(inner) {
 function showLogin(notice) {
   appReady = false;
   document.title = 'Sign in · Pharma Rep App';
-  renderBanner();
   document.getElementById('root').innerHTML =
     '<div class="login"><form class="login-card" id="loginForm" novalidate>' +
       '<div class="login-brand"><span class="mark">' + icon('product') + '</span><span class="brand-name">Pharma Rep App</span></div>' +
@@ -4036,7 +4024,6 @@ function showDown(err) {
 }
 
 function boot() {
-  renderBanner();
   if (!getToken()) return showLogin(takeNotice());
   loginShell('<p class="login-sub">Loading your space…</p>');
   loadSpace(null).then(startApp, function (err) { if (!(err && err.status === 401)) showDown(err); });   // a 401 already signed the user out
